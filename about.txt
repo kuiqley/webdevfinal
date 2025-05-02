@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Golf Guide</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="bg-success text-white text-center py-3">
+	<h1>A Beginner's Guide to Golf</h1>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="container-fluid">
+    		<a class="navbar-brand" href="index.html">Home</a>
+    		<a class="nav-link" href="about.html">About</a>
+    		<a class="nav-link" href="balls.html">Golf Balls</a>
+    		<a class="nav-link" href="clubs.html">Golf Clubs</a>
+    		<a class="nav-link" href="guide.html">Beginner Guide</a>
+    		<a class="nav-link" href="favorites.html">My Gear</a>
+    		<a class="nav-link" href="contact.html">Contact</a>
+  	</div>
+</nav>
+
+<div class="container my-5">
+	<h2 class="mb-4">About the Game of Golf</h2>
+	<div class="row mb-5 align-items-center">
+    		<div class="col-md-6">
+      			<img src="images/scotland.jpg" class="img-fluid rounded">
+    		</div>
+    		<div class="col-md-6">
+      			<h4>Origins in Scotland (15th Century)</h4>
+      			<p>Although there are earlier documented ball and stick games, Scotland is credited with developing the game of Golf that we know today. The game originated there during the 15th century, and the first mention of the sport was in 1457, when King James II banned the game as he believed it was taking mens time away from practicing archery. In the early days of Golf, players of the sport would attempt to hit a pebble over sand dunes and around tracks using a bent stick or club. King James' ban of the sport was largely ingored, and in 1502, the game of Golf received the royal seal of approval when King James IV of Scotland became the first Golfing monarch. After this, the popularity of the game skyrocketed, and spread throughout Europe. It was King Charles I who introduced the game to England, and Mary Queen of Scots who introduced it to France. Even the Golf term, "caddie", comes from Mary, who called her military aides "cadets".</p>
+    		</div>
+  	</div>
+
+	<div class="row mb-5 align-items-center flex-md-row-reverse">
+    		<div class="col-md-6">
+      			<img src="images/rules.jpg" class="img-fluid rounded">
+    		</div>
+    		<div class="col-md-6">
+      			<h4>Establishment of the Rules</h4>
+      			<p>The rules of Golf have changed over the years, and they are changing every year, however the same basic principles have stayed the same for centuries. The first written rules of golf were not discovered until 1937, on the back of a Minute Book of the Honorable Company, which was formed by the Gentlemen Golfers of Edinburgh. They were written in 1744 and had thirteen original rules, and it was signed by John Rattray Captain, who was deemed "Captain of the Golf" at the time.</p>
+    		</div>
+  	</div>
+
+	<div class="row mb-5 align-items-center">
+    		<div class="col-md-6">
+      			<img src="images/augusta.jpg" class="img-fluid rounded">
+    		</div>
+    		<div class="col-md-6">
+      			<h4>Golf Goes Global</h4>
+      			<p>During the 19th century, the British Empire was expanding rapidly and began encompassing the globe. As that happened, they brought the sport of Golf with them. The first golf club formed outside of Scotland was called the Royal Blackheath. Then, more and more golf clubs began forming in places like India, Ireland, Hong Kong, and New York. Once the 20th century rolled around, Golf had expanded to the U.S. and Asia, and was already across all of Europe. This eventally led to the forming of major tournaments, like the Masters and U.S Open. And led to the birth of the worlds greatest golfer, Tiger Woods.</p>
+    		</div>
+  	</div>
+
+	<div class="row mb-5 align-items-center flex-md-row-reverse">
+    		<div class="col-md-6">
+      			<img src="images/modern.jpg" class="img-fluid rounded">
+    		</div>
+    		<div class="col-md-6">
+      			<h4>Modern Golf and Tech</h4>
+      			<p>Today, golf combines tradition with technology. From GPS tracking to high-tech clubs and balls, the sport continues to grow with millions of players and fans around the globe. The Industrial Revolution is what really began modernizing golf into what we know it as today. Mass production methods of clubs and balls were developed, which made it more accessible to the average person. In the 1900's we saw the first use of a metal golf club shaft, and in 1973, we saw the development of graphite shafts. The first company to produce a metal headed wood, was Taylor Made. However, it wasn't until 1991, when Callaway introduced the Big Bertha driver, that the big metal headed drivers and woods began being used by players. And in the early 2000's, we saw the development of hybrid clubs, which are a fusion between an iron and a fairway wood. Today, golf clubs are getting even more advanced. Some drivers even have the ability to change the loft of the club head, and we can create titanium golf heads with graphite shafts, making them more durable and hit balls even further.</p>
+    		</div>
+  	</div>
+</div>
+
+
+<footer class="bg-light text-center py-3">
+	<p>&copy; 2025 Golf Basics Incorporated. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

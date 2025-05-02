@@ -1,0 +1,62 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+}
+
+/* header */
+header {
+  background-color: #28a745; /* Bootstrap green */
+  color: white;
+  padding: 20px 0;
+}
+
+/* footer */
+footer {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 15px 0;
+}
+
+/* main spacing */
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* carousel */
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/* nav links */
+.navbar .nav-link {
+  margin-right: 10px;
+  color: #333;
+}
+
+.navbar .nav-link:hover {
+  color: #28a745;
+}
+
+/* cards for golf balls  */
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* contact form */
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}

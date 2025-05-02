@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Golf Guide</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="bg-success text-white text-center py-3">
+	<h1>A Beginner's Guide to Golf</h1>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="container-fluid">
+    		<a class="navbar-brand" href="index.html">Home</a>
+    		<a class="nav-link" href="about.html">About</a>
+    		<a class="nav-link" href="balls.html">Golf Balls</a>
+    		<a class="nav-link" href="clubs.html">Golf Clubs</a>
+    		<a class="nav-link" href="guide.html">Beginner Guide</a>
+    		<a class="nav-link" href="favorites.html">My Gear</a>
+    		<a class="nav-link" href="contact.html">Contact</a>
+  	</div>
+</nav>
+<div class="container my-5">
+	<h2 class="mb-4">The Evolution of the Golf Ball</h2>
+	<p>Golf balls have come a long way since the 14th century. The first golf balls were made of wood, followed by the "featherie" — a leather pouch stuffed with boiled goose feathers. As materials and technology evolved, the ball transformed dramatically.</p>
+
+	<h4 class="mt-4">Historic Milestones</h4>
+	<ul>
+    		<li><strong>Wooden Balls (1300s–1600s):</strong> Carved from hardwood, mostly beech. Extremely inconsistent in flight.</li>
+    		<li><strong>Featherie Balls (1600s–1800s):</strong> Leather pouch packed with feathers. Expensive, hand-crafted, and fragile.</li>
+    		<li><strong>Gutta-Percha Balls (1850s):</strong> Made from rubber-like sap. More durable and cheaper to mass produce.</li>
+    		<li><strong>Rubber Core Balls (1900s):</strong> Featured a solid or wound rubber core with outer balata or surlyn cover.</li>
+    		<li><strong>Modern Multilayer Balls:</strong> Today’s balls often have 2–5 layers for optimized spin, distance, and feel.</li>
+  	</ul>
+
+  	<h3 class="mt-5 mb-4">Modern Golf Ball Types</h3>
+
+	<div class="row">
+    		<div class="col-md-4 mb-4">
+      			<div class="card h-100">
+        			<img src="images/distance.jpg" class="card-img-top">
+        			<div class="card-body">
+          				<h5 class="card-title">Distance Balls</h5>
+          				<p class="card-text">Designed for maximum carry and roll. Great for beginners or high handicappers who want more yardage. Usually harder with less spin.</p>
+        			</div>
+      			</div>
+    		</div>
+		<div class="col-md-4 mb-4">
+      			<div class="card h-100">
+        			<img src="images/spin.jpg" class="card-img-top">
+        			<div class="card-body">
+          				<h5 class="card-title">Spin Balls</h5>
+          				<p class="card-text">Engineered for control and short game finesse. Offers higher spin around the greens for more stopping power, favored by skilled players.</p>
+        			</div>
+      			</div>
+    		</div>
+    		<div class="col-md-4 mb-4">
+      			<div class="card h-100">
+        			<img src="images/soft.jpg" class="card-img-top">
+        			<div class="card-body">
+          				<h5 class="card-title">Soft Feel Balls</h5>
+          				<p class="card-text">Provide a more comfortable and responsive feel, especially on putts and chips. Typically have lower compression for slower swing speeds.</p>
+        			</div>
+      			</div>
+    		</div>
+  	</div>
+</div>
+
+<footer class="bg-light text-center py-3">
+	<p>&copy; 2025 Golf Basics Incorporated. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
